@@ -1,5 +1,4 @@
-# Paul Glenn
-# Asmit Bhowmick
+# Asmit Bhowmick && Paul Glenn
 # nma.py
 import sys
 import numpy as np
