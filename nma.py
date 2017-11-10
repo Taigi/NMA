@@ -264,7 +264,7 @@ def TrajectoryINMs(refPDBFile1,refPDBFile2, trajFile,startmod,endmod):
 	X1 = [] # W.R.T 1st Reference
 	X2 = [] # W.R.T 2nd reference
 	for R in traj :
-		print 'new frame'
+		print 'new framesss'
 		curr = ENM(R)
 # Using class method on curr class
 		sim1 = curr.Similarity(init)
