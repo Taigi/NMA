@@ -65,7 +65,7 @@ def ReadInPDBTrajectory(fn,startmod,endmod):
 		if 'MODEL' in line and int((line.split())[-1]) >startmod-1 and int((line.split())[-1]) < endmod+1:
 			ConsiderChain = True
 			chains.append(int((line.split())[-1]))
-#			print 'This is sooo True',int((line.split())[-1])
+			print 'This is soo not True',int((line.split())[-1])
 #		else:
 #			ConsiderChain = False
 		if ('ENDMDL' in line or i + 1 == NL) and ConsiderChain == True: #asmit
